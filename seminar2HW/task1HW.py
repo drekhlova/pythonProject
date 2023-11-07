@@ -18,7 +18,7 @@
 # Структурна парадигма ориентирована на создание программы, разбитой на отдельные функции или модули, что упрощает понимание и поддержку кода
 def multiplication_table(n):
     for i in range(1, n + 1):
-        for j in range(1, n + 1):
+        for j in range(1, 10):
             print(f"{i} * {j} = {i * j}")
         print("\n")
 
@@ -31,4 +31,4 @@ n = int(input())
 
 for i in range(1, n + 1):
     for j in range(1, 10):
-        print(i, "*", j, "=", i * j)
+        print(f"{i} * {j} = {i * j}")
