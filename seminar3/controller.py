@@ -1,6 +1,6 @@
-from seminar3.book import Book
-from seminar3.library import Library
-from seminar3.view import View
+from pythonProject.seminar3.book import Book
+from pythonProject.seminar3.library import Library
+from pythonProject.seminar3.view import View
 
 
 class Controller:

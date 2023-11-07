@@ -1,4 +1,4 @@
-from seminar3.library import Library
+from pythonProject.seminar3.library import Library
 
 
 class View:
