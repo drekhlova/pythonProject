@@ -1,4 +1,4 @@
-from pythonProject.seminar3HW.TikTakToe import TicTacToe
+from pythonProject.seminar3HW.TicTacToe import TicTacToe
 
 game = TicTacToe()
 player1 = input("Как Вас зовут?: ")
