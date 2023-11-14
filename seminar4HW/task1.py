@@ -37,10 +37,10 @@ def pearson_correlation(x, y):
 array1 = np.random.randint(0, 10, 10)
 array2 = np.random.randint(0, 10, 10)
 
-# Вывод массивов на печать
+# Выводим массивы чисел на печать
 print("Первый массив: ", array1)
 print("Второй массив: ", array2)
 
-# Вычисление корреляции Пирсона
+# Вычисляем корреляции Пирсона
 correlation = pearson_correlation(array1, array2)
 print("Корреляция Пирсона между двумя массивами: ", correlation)
